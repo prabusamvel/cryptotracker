@@ -9,7 +9,7 @@ import {
   Col,
 } from "reactstrap";
 
-import Footer from "components/Footer/Footer.jsx";
+import Footer from "../components/Footer/Footer.jsx";
 import io from 'socket.io-client';
 import ReactTable from "react-table";
 import 'react-table/react-table.css';
@@ -50,9 +50,9 @@ class Tables extends React.Component {
     super(props);
     let coinsIcons = [];
     for(let coin in this.props.icons){
-        coinsIcons[coin] = require('assets/img/crypto-icons/'+coin+'.png');
+        coinsIcons[coin] = require('../assets/img/crypto-icons/'+coin+'.png');
     }
-    let icon404 = require('assets/img/404.png');
+    let icon404 = require('../assets/img/404.png');
     this.state = {
       isLoaded: false,
       error: '',

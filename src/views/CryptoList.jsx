@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import TableList from "views/TableList.jsx";
-import Footer from "components/Footer/Footer.jsx";
-import crypto_icons from "json/coins.js";
+import TableList from "../views/TableList.jsx";
+import Footer from "../components/Footer/Footer.jsx";
+import crypto_icons from "../json/coins.js";
 
 class CryptoList extends React.Component {
   render(){
