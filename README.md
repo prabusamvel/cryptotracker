@@ -1,1 +1,1 @@
-Track 1000+ cryptocurrencies live market data from various exchanges. 
+Track 1500+ cryptocurrencies live market data from various exchanges. 
